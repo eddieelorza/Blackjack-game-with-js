@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: #2F4F30 !important;
+  color: white !important;
+}
+
+.title {
+  background-color: black;
+}
+.title h1 {
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
+
+.button-wrapper button {
+  margin-left: 15px;
+}
+
+.card-wrapper {
+  height: 15rem;
+}
+.card-wrapper .cards {
+  position: relative;
+  width: 10rem;
+  margin-left: -5rem;
+  left: 100px;
+}/*# sourceMappingURL=styles.css.map */
