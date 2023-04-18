@@ -19,11 +19,11 @@
                 <button id="restart-game" class="btn btn-danger ">
                     Nuevo Juego
                 </button>
-                <button id="get-card" class="btn btn-primary ">
+                <button id="get-card" disabled="disabled" class="btn btn-primary ">
                     Pedir carta
 
                 </button>
-                <button id="stop-game" class="btn btn-primary">
+                <button id="stop-game" disabled="disabled" class="btn btn-primary">
                     Detener
                 </button>
 
@@ -32,12 +32,12 @@
         <div class="row">
             <div class="col-12">
                 <h1>Jugador 1 -<span> 0</span></h1>
-                <div class="card-wrapper m-5" id="user-wrapper">
+                <div class="card-wrapper m-5 players-wrapper" id="user-wrapper">
               
             </div>
             <div class="col-12">
                 <h1>Computadora  -<span> 0</span></h1>
-                <div class="card-wrapper m-5" id="computer-wrapper">
+                <div class="card-wrapper m-5 players-wrapper" id="computer-wrapper">
                 
                 </div>
 
@@ -48,6 +48,8 @@
     </div>
 
     <script type="module" src="./assets/js/juego.js"></script>
+    <script type="module" src="./assets/js/miModulo.js"></script>
 
+  
 </body>
 </html>
